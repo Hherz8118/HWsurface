@@ -11,7 +11,7 @@
 
 
 int[] numbers = RandomArray(4);
-Console.Write("Massive: ");
+Console.Write("Array: ");
 PrintArray(numbers);
 
 int evenCount = CountNumbers(numbers);
