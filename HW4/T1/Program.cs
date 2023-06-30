@@ -9,12 +9,14 @@
 int A = ReadNumber("Enter number A ");
 int B = ReadNumber("Enter number B ");
 
-int ReadNumber(string number){
+int ReadNumber(string number)
+{
     Console.Write(number);
     return Convert.ToInt32(Console.ReadLine());
 }
 int result = 1;
-for (int i = 0; i< B; i++){
+for (int i = 0; i < B; i++)
+{
     result = result * A;
 }
 
